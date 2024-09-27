@@ -27,7 +27,7 @@ const Hero = () => {
       </div>
      
       {/* Hero-rightside*/}
-      <div>
+      <div className="flex justify-end">
         <img className="w-full sm:w-1/2" src={assets.hero_img} alt="" />
       </div>
     </div>
